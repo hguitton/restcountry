@@ -96,6 +96,11 @@ module Restcountry
       countries.map { |attributes| new(attributes) }
     end
 
+    def self.find_by_demonym(demonym)
+      countries = get_response('demonym', demonym)
+      countries.map { |attributes| new(attributes) }
+    end
+
     def self.all
       countries = get_response('all')
       countries.map { |attributes| new(attributes) }

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.eu/rest/v2/demonym/Spanish
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Sun, 05 Apr 2020 14:39:59 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d55e9e71b576d4f986fbbe2f73296a24b1586097599; expires=Tue, 05-May-20
+        14:39:59 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Headers:
+      - Accept, X-Requested-With
+      Cache-Control:
+      - public, max-age=86400
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 57f4058e6de43baf-CDG
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6IlNwYWluIiwidG9wTGV2ZWxEb21haW4iOlsiLmVzIl0sImFscGhhMkNvZGUiOiJFUyIsImFscGhhM0NvZGUiOiJFU1AiLCJjYWxsaW5nQ29kZXMiOlsiMzQiXSwiY2FwaXRhbCI6Ik1hZHJpZCIsImFsdFNwZWxsaW5ncyI6WyJFUyIsIktpbmdkb20gb2YgU3BhaW4iLCJSZWlubyBkZSBFc3Bhw7FhIl0sInJlZ2lvbiI6IkV1cm9wZSIsInN1YnJlZ2lvbiI6IlNvdXRoZXJuIEV1cm9wZSIsInBvcHVsYXRpb24iOjQ2NDM4NDIyLCJsYXRsbmciOls0MC4wLC00LjBdLCJkZW1vbnltIjoiU3BhbmlzaCIsImFyZWEiOjUwNTk5Mi4wLCJnaW5pIjozNC43LCJ0aW1lem9uZXMiOlsiVVRDIiwiVVRDKzAxOjAwIl0sImJvcmRlcnMiOlsiQU5EIiwiRlJBIiwiR0lCIiwiUFJUIiwiTUFSIl0sIm5hdGl2ZU5hbWUiOiJFc3Bhw7FhIiwibnVtZXJpY0NvZGUiOiI3MjQiLCJjdXJyZW5jaWVzIjpbeyJjb2RlIjoiRVVSIiwibmFtZSI6IkV1cm8iLCJzeW1ib2wiOiLigqwifV0sImxhbmd1YWdlcyI6W3siaXNvNjM5XzEiOiJlcyIsImlzbzYzOV8yIjoic3BhIiwibmFtZSI6IlNwYW5pc2giLCJuYXRpdmVOYW1lIjoiRXNwYcOxb2wifV0sInRyYW5zbGF0aW9ucyI6eyJkZSI6IlNwYW5pZW4iLCJlcyI6IkVzcGHDsWEiLCJmciI6IkVzcGFnbmUiLCJqYSI6IuOCueODmuOCpOODsyIsIml0IjoiU3BhZ25hIiwiYnIiOiJFc3BhbmhhIiwicHQiOiJFc3BhbmhhIiwibmwiOiJTcGFuamUiLCJociI6IsWgcGFuam9sc2thIiwiZmEiOiLYp9iz2b7Yp9mG24zYpyJ9LCJmbGFnIjoiaHR0cHM6Ly9yZXN0Y291bnRyaWVzLmV1L2RhdGEvZXNwLnN2ZyIsInJlZ2lvbmFsQmxvY3MiOlt7ImFjcm9ueW0iOiJFVSIsIm5hbWUiOiJFdXJvcGVhbiBVbmlvbiIsIm90aGVyQWNyb255bXMiOltdLCJvdGhlck5hbWVzIjpbXX1dLCJjaW9jIjoiRVNQIn1d
+    http_version: null
+  recorded_at: Sun, 05 Apr 2020 14:39:59 GMT
+recorded_with: VCR 5.1.0

@@ -60,4 +60,9 @@ describe Restcountry, :vcr do
     countries = Restcountry::Country.find_by_countrycode('it')
     expect(countries.first.name).to eq('Italy')
   end
+
+  it 'get name Spain from first country with demonym Spanish' do
+    country = Restcountry::Country.find_by_demonym('Spanish')
+    expect(country.first.name).to eq('Spain')
+  end
 end
